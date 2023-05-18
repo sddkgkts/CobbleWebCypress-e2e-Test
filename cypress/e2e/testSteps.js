@@ -72,7 +72,7 @@ async function createNewCategoryReleatedProductSKU(categorySetup) {
 }
 
 async function checkActiveInactiveButtonFunctionality(categorySetup, functionType ) {
-  it('[E2E] [Positive] Check active/inactive button functionalty', () => {
+  it(`[E2E] [Positive] Check ${functionType} button functionalty`, () => {
     cy.navigateToUrl('/');
     testTool.navigateToCategoryCreationPage(categorySetup);
     categoryManagementPage.getButton(functionType).click();
@@ -132,9 +132,6 @@ async function deleteCreatedAndUpdatedCategory(updateCategorySetup) {
     categoryManagementPage.logOut();
   });
 }
-
-
-
 
 
 

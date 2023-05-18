@@ -91,11 +91,3 @@ module.exports = {
     CategoryManagementPage
 }
 
-
-
-
-// SPECIFICATIONS = {"name": "Under 200£ Producs", "urlKey": "under_200", "pageTitle": "Under 200£", 
-// "description": "The product that is under 200£ is listed", "metaKeywords": "art, galery, artist",
-// "metaDescription": "art is to art, galery is to art, art is performed by artist", "conditions": "New" }
-
-//SPECIFICATIONS = { name: "Under 200£ Producs", urlKey: "under_200", pageTitle: "Under 200£", description: "The product that is under 200£ is listed", metaKeywords: art, galery, artist,metaDescription: "art is to art, galery is to art, art is performed by artist", conditions: "New" }

@@ -17,7 +17,7 @@ module.exports = defineConfig({
   viewportHeight: 660,
   viewportWidth:1000,
   reporter: 'mochawesome',
-  
+  experimentalFetchPolyfill: true, 
   
   env: {
     baseUrl: process.env.URL,
