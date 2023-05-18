@@ -7,7 +7,7 @@
     "test": "cypress run --reporter mochawesome",
     "test:cy": "cypress run --browser chrome --headless 'cypress/e2e/cobbleWeb.test.cy.js'",
     "test:headed": "cypress run --headed",
-    "test:cheome":"npx cypress run --browser chrome"
+    "test:chrome":"npx cypress run --browser chrome"
   },
   "author": "sddk",
   "license": "ISC",
