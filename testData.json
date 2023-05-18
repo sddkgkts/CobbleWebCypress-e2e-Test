@@ -1,0 +1,63 @@
+{
+    "categorySetup": {
+        "pageName": "Category management",
+        "categoryType": "Collage",
+        "categoryAttribute": {
+            "name": "Under 300£ Producs",
+            "urlKey": "under_300_gft",
+            "pageTitle": "Under 300£",
+            "description": "The product that is under 300£ is listed",
+            "metaKeywords": "art, galery, artist",
+            "metaDescription": "art is to art, galery is to art, art is performed by artist",
+            "conditions": "New"
+        }
+    },
+     "categorySetupUpdate": {
+        "pageName": "Category management",
+        "categoryType": "Collage",
+        "categoryAttribute": {
+            "name": "Best Mother Day Gift",
+            "urlKey": "under_300_gft",
+            "pageTitle": "For Mother Day",
+            "description": "Best Gift For Mothers",
+            "metaKeywords": "art, galery, artist",
+            "metaDescription": "art is to art, galery is to art, art is performed by artist",
+            "conditions": "New"
+        }
+    },
+    "filterProductSetup": {
+        "pageName": "Products",
+        "productFilterSpecification": {
+            "Product SKU": {
+                "name": "Product SKU",
+                "type": "contains",
+                "text": "PR"
+            },
+            "Galllery name": {
+                "name": "Gallery name",
+                "type": "contains",
+                "text": "Art"
+            },
+            "Artist name": {
+                "name": "Artist name",
+                "type": "starts with",
+                "text": "Lucie"
+            },
+            "Product status": {
+                "name": "Product status",
+                "type": "Live"
+            },
+            "Selling price": {
+                "name": "Selling price",
+                "type": "is less than",
+                "text": "300"
+            },
+            "Shipping from": {
+                "name": "Shipping from",
+                "type": "=",
+                "text": "United Kingdom"
+            }
+        }
+    }
+}
+
