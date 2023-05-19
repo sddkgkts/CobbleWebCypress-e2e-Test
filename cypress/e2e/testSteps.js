@@ -130,6 +130,7 @@ async function deleteCreatedAndUpdatedCategory(updateCategorySetup) {
     actualMessage.should('eq', expectedMessage);
     categoryManagementPage.closeAllert()
     categoryManagementPage.logOut();
+    categoryManagementPage.getUrl().should('eq', 'https://affordableartfairs-int.cobbleweb.co.uk/')
   });
 }
 

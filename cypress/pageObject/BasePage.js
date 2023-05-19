@@ -14,6 +14,9 @@ class BasePage  {
       cy.get('.close-icon > img').click()
     }
 
+    getUrl(){
+     return cy.url();
+    }
 
 
 
