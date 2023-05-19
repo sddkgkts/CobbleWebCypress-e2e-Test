@@ -57,7 +57,7 @@ Reporting
 Cypress provides detailed test execution reports and screenshots automatically. After running the tests,
  you can find the reports in the cypress/reports directory. These reports include information such as test status, 
  test duration, and any failed assertions. 
- ![REPORT]([http://url/to/img.png](https://github.com/sddkgkts/CobbleWebCypress-e2e-Test/blob/main/downloads/Execution%20Result.png)
+ ![REPORT](https://github.com/sddkgkts/CobbleWebCypress-e2e-Test/blob/main/downloads/Execution%20Result.png)
 
 Conclusion
 This README provides an overview of the Cypress end-to-end test suite for the login and category management 
